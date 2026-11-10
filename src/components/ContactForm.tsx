@@ -62,7 +62,7 @@ export function ContactForm() {
   };
 
   return (
-    <section id="contact" className="section-padding bg-background" aria-labelledby="contact-heading">
+    <section id="contact" className="section-padding" aria-labelledby="contact-heading">
       <div className="container-custom">
         <header className="mx-auto mb-16 max-w-3xl text-center">
           <span className="inline-block rounded-full bg-primary/10 px-4 py-1 text-sm font-medium text-primary mb-4">

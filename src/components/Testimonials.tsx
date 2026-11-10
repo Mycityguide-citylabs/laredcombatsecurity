@@ -67,7 +67,7 @@ export function Testimonials({ className }: TestimonialsProps) {
   ];
 
   return (
-    <section id="testimonials" className="section-padding bg-muted/50" aria-labelledby="testimonials-heading">
+    <section id="testimonials" className="section-padding" aria-labelledby="testimonials-heading">
       <div className="container-custom">
         <header className="mx-auto mb-16 max-w-3xl text-center">
           <span className="inline-block rounded-full bg-primary/10 px-4 py-1 text-sm font-medium text-primary mb-4">

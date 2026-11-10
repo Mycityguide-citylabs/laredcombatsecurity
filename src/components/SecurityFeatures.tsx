@@ -70,7 +70,7 @@ export function SecurityFeatures() {
   ];
 
   return (
-    <section className="section-padding bg-muted/50" aria-labelledby="features-heading">
+    <section className="section-padding" aria-labelledby="features-heading">
       <div className="container-custom">
         <header className="mx-auto mb-16 max-w-3xl text-center">
           <span className="inline-block rounded-full bg-primary/10 px-4 py-1 text-sm font-medium text-primary mb-4">

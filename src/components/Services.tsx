@@ -110,7 +110,7 @@ export function Services({ className }: ServicesProps) {
   ];
 
   return (
-    <section id="services" className="section-padding bg-background" aria-labelledby="services-heading">
+    <section id="services" className="section-padding" aria-labelledby="services-heading">
       <div className="container-custom">
         <header className="mx-auto mb-16 max-w-3xl text-center">
           <span className="inline-block rounded-full bg-primary/10 px-4 py-1 text-sm font-medium text-primary mb-4">

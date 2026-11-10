@@ -24,9 +24,7 @@ export function Hero({ className }: HeroProps) {
 
   return (
     <section className={cn("relative min-h-[90vh] flex items-center justify-center overflow-hidden", className)}>
-      <div className="absolute inset-0 opacity-50" style={{ backgroundImage: `url(${gridPattern})` }} />
-
-      <div className="absolute inset-0 bg-gradient-radial from-amber-500/10 via-transparent to-transparent" />
+      {/* Body background shows through - no section background */}
 
       <div className="relative container-custom py-20 lg:py-32">
         <div className="max-w-4xl mx-auto text-center">
